@@ -21,8 +21,8 @@ body {
 }
 
 #panel {
-  width: 80%;
-  height: 80%;
+  width: 1280px;
+  height: 631px;
   border-radius: 10px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.25);
