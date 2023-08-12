@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(91, 91, 91);
+}
+
+#panel {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+.ptop {
+  width: 100%;
+  height: 100px;
+  background: rgba(189, 196, 202, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+
+.pheading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20%;
+}
+
+.elem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elem h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 10px;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 1px rgb(0, 0, 0);
+}
+
+.elem p {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(33, 107, 171);
+  background: rgba(255, 255, 255, 0.854);
+  box-shadow: 0 8px 32px 0 rgba(252, 252, 252, 0.864);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.pbtm {
+  width: 100%;
+  height: calc(100% - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 3px;
+}
+
+.bubble {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: rgb(52, 51, 51);
+}
+
+.bubble:hover {
+  background-color: rgb(33, 107, 171);
+  cursor: pointer;
+}
