@@ -17,7 +17,7 @@ body {
   justify-content: center;
   width: 100%;
   height: 100%;
-  background-color: rgb(91, 91, 91);
+  background-image: url(./assets/bg.jpeg);
 }
 
 #panel {
@@ -25,18 +25,18 @@ body {
   height: 631px;
   border-radius: 10px;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: #2e2e2e40;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
 }
 
 .ptop {
   width: 100%;
   height: 100px;
-  background: rgba(189, 196, 202, 0.5);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  background: #2e2e2e40;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   border-radius: 10px;
 }
 
@@ -53,22 +53,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: default;
 }
 
 .elem h2 {
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0 10px;
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #fffffd;
+  margin: 0rem 2rem;
   text-transform: uppercase;
-  text-shadow: 1px 2px 1px rgb(0, 0, 0);
 }
 
 .elem p {
   font-size: 22px;
   font-weight: 700;
-  color: rgb(33, 107, 171);
-  background: rgba(255, 255, 255, 0.854);
-  box-shadow: 0 8px 32px 0 rgba(252, 252, 252, 0.864);
+  color: #4ac0d4;
+  background: #fffffd;
   padding: 8px;
   border-radius: 5px;
 }
@@ -84,6 +84,17 @@ body {
   margin: 3px;
 }
 
+.pbtm h1 {
+  width: 20%;
+  color: #c04692;
+  text-align: center;
+  cursor: default;
+}
+
+.pbtm h1 > span {
+  color: #4ac0d4;
+}
+
 .bubble {
   width: 60px;
   height: 60px;
@@ -91,11 +102,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
-  background-color: rgb(52, 51, 51);
+  color: #fafaf9;
+  background-color: #c04692;
 }
 
 .bubble:hover {
-  background-color: rgb(33, 107, 171);
+  background-color: #4ac0d4;
   cursor: pointer;
 }

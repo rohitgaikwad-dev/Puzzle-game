@@ -1,4 +1,4 @@
-let timer = 60;
+let timer = 59;
 let hitrn;
 let score = 0;
 
@@ -20,7 +20,7 @@ const getTime = () => {
       clearInterval(timeInv);
       document.querySelector(
         ".pbtm"
-      ).innerHTML = `<h1>Game Over <br>Your Score: ${score}</h1>`;
+      ).innerHTML = `<h1>Game Over <span>Your Score: ${score}</span></h1>`;
     }
   }, 1000);
 };
@@ -41,7 +41,6 @@ document.querySelector(".pbtm").addEventListener("click", (details) => {
     increaseScore();
     makeBubble();
     getHits();
-  } else {
   }
 });
 
